@@ -1,0 +1,259 @@
+  * {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+  }
+
+  body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+
+  @media screen and (max-width: 996px) {
+    .aboutme .hide {
+      display: none;
+    }
+  }
+  .aboutme .hide {
+
+  }
+  body, html {
+    height: 100%;
+    color:rgb(51, 48, 48);
+    line-height: 1.6;
+    font-size: 17px;
+  }
+
+  section .heading {
+    font-weight: bold;
+    font-size: 28px;
+    text-shadow: 0px 0px 5px rgb(231, 231, 54);
+  }
+
+  section h5 {
+    text-decoration: underline;
+    -webkit-text-decoration-color: black; /* Safari */  
+
+
+  }
+  /* On screens that are 992px or less, set the background color to blue */
+  /* @media screen and (min-width: 450px) {
+    .navbar-brand {
+      padding-left: 10px;
+      }
+  }
+  @media screen and (min-width: 650px) {
+    .navbar-brand {
+      padding-left: 100px;
+    }
+  }
+  @media screen and (min-width: 950px) {
+    .navbar-brand {
+      padding-left: 230px;
+    }
+  } */
+
+/* nav bar */
+/* @media screen and (min-width: 650px) {
+  nav a {
+    padding-left: 70px;
+  }
+
+} */
+
+@media screen and (min-width: 1070px) {
+  nav a {
+    padding-left: 180px;
+  }
+  nav .collapse ul {
+    padding-right: 140px;
+  }
+}
+@media screen and (min-width: 1150px) {
+  nav a {
+    padding-left: 260px;
+  }
+  nav .collapse ul {
+    padding-right: 140px;
+  }
+}
+
+  .collapse ul li a:hover {
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  }
+  
+  nav .collapse {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 8px;
+  }
+
+  nav .collapse ul {
+    list-style: none;
+  }
+
+  nav .collapse ul li {
+    display: inline-block;
+  }
+
+  nav .collapse ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: rgb(230, 227, 227);
+  }
+
+  nav .collapse ul li.active {
+    border-radius: 8px;
+    background-color:rgb(160, 156, 156);
+    transition: 0.3 ease background-color;
+  }
+
+  nav .collapse ul li.active a {
+    color: white;
+  }
+
+  /* home carousal */
+  #carouselExampleFade img {
+	color: #fff;
+	height: 730px;
+	background: no-repeat 50% 0;
+	background-size: cover;
+  }
+
+  /* about img */
+  .abt{
+  float: left;
+  }
+
+  #about p {
+    text-align: justify;
+  }
+  
+  @media screen and (max-width: 600px) {
+    #about p {
+      margin: 10px;
+    }
+  }
+  
+  #about p img {
+    width: 60%;
+    max-width: 500px;
+    height: auto;
+    margin-right:15px; 
+    border: 4px solid #ffffff;
+    outline: 1px solid #d0d0d0;
+    box-shadow: 0 2px 1px #DDD;
+  }
+  /* .w3-wide {letter-spacing: 10px;} */
+  .w3-hover-opacity {cursor: pointer;}
+
+  /*design images */
+  .image-list-small {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 1250px;
+    padding: 0;
+  }
+  
+  .image-list-small li {
+    display: inline-block;
+    width: 208px;
+    margin: 0 12px 30px;
+  }
+  
+  /* Photo */
+  .image-list-small li > img {
+    display: block;
+    text-decoration: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 210px;
+    margin: 0;
+    padding: 0;
+    border: 4px solid #ffffff;
+    outline: 1px solid #d0d0d0;
+    box-shadow: 0 2px 1px #DDD;
+  }
+  
+  .image-list-small .details {
+    margin-top: 13px;
+  }
+  
+  /* Title */
+  .image-list-small .details h3 {
+    display: block;
+    font-size: 12px;
+    margin: 0 0 3px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .image-list-small .details h3 a {
+    color: #303030;
+    text-decoration: none;
+  }
+  
+  .image-list-small .details .image-author {
+    display: block;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0;
+  }
+  
+  .details a {
+    font-size: 16px;
+  }
+
+  /* .sub-menu {
+    display: none;
+  }
+
+  .menu-bar ul li:hover .sub-menu {
+    display: block;
+    position: absolute;
+    background-color: red;
+    margin-top: 10px;
+    margin-left: -10px;
+  }
+
+  .menu-bar ul li:hover .sub-menu ul {
+    display: block;
+    margin: 10px;
+  }
+
+  .menu-bar ul li:hover .sub-menu ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted green;
+    background-color: transparent;
+    border-radius: 0%;
+    text-align: left;
+  } */
+
+  /* Turn off parallax scrolling for tablets and phones */
+  @media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+
+ /* srcoll button */
+  #top{
+    position: fixed;
+    bottom: 20px;
+    right: 8px;
+    border: none;
+    color: #fff;
+    padding: 8px 14px;
+    border-radius: 10px;
+    scroll-behavior: smooth;
+  }
+  #top:hover{
+     background:#606060;
+  }
+}
